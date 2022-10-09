@@ -1,0 +1,168 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-09T14:16:56.270Z",
+        "line": 3,
+        "name": "To validte the login with valid credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-kavida-application;to-validte-the-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23727144900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user should be in kavida login page",
+            "match": {
+              "location": "LoginSteps.the_user_should_be_in_kavida_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 582086900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user should enter firstname, email and jobtitle",
+            "match": {
+              "location": "LoginSteps.the_user_should_enter_firstname_email_and_jobtitle()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 301855300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user should click the start tour button",
+            "match": {
+              "location": "LoginSteps.the_user_should_click_the_start_tour_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22436446200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user open the Control Tower Action",
+            "match": {
+              "location": "LoginSteps.the_user_open_the_Control_Tower_Action()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6415255900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user should see the Threats \u0026 Alert",
+            "match": {
+              "location": "LoginSteps.the_user_should_see_the_Threats_Alert()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4396418200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user click the Order TimeLine Action",
+            "match": {
+              "location": "LoginSteps.the_user_click_the_Order_TimeLine_Action()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2228158900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user click the Communication Hub",
+            "match": {
+              "location": "LoginSteps.the_user_click_the_Communication_Hub()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9669263200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click the Compose an Email",
+            "match": {
+              "location": "LoginSteps.click_the_Compose_an_Email()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3496643000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user should The Add Shipping Information",
+            "match": {
+              "location": "LoginSteps.the_user_should_The_Add_Shipping_Information()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3628599500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The user  Enter Vessel Tracking Id",
+            "match": {
+              "location": "LoginSteps.the_user_Enter_Vessel_Tracking_Id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10804150900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user click the Global Risks",
+            "match": {
+              "location": "LoginSteps.the_user_click_the_Global_Risks()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4245698200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user should be in valid page",
+            "match": {
+              "location": "LoginSteps.the_user_should_be_in_valid_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the login functionality of kavida application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-kavida-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]

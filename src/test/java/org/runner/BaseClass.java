@@ -10,6 +10,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -31,7 +32,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-
 import org.openqa.selenium.interactions.Actions;
 
 import org.openqa.selenium.remote.server.handler.FindElement;
@@ -217,12 +217,14 @@ public class BaseClass {
 //	24
 	public static void clickMoveReleaseAction(WebElement from,WebElement to) {
 		Actions a =new Actions(driver);
+		driver = Objects.requireNonNull(driver);
 		a.clickAndHold(from).moveToElement(to).release().perform();
 	}
 		
 //	25
 	public static void clickAndReleaseAction(WebElement from, WebElement to) {
 		Actions a =new Actions(driver);
+		driver = Objects.requireNonNull(driver);
 		a.clickAndHold(from).release(to).perform();
 
 	}

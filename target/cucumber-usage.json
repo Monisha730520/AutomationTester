@@ -1,0 +1,218 @@
+[
+  {
+    "source": "The user should be in kavida login page",
+    "steps": [
+      {
+        "name": "The user should be in kavida login page",
+        "aggregatedDurations": {
+          "median": 23.7271449,
+          "average": 23.727144900
+        },
+        "durations": [
+          {
+            "duration": 23.7271449,
+            "location": "file:src/test/resources/Features/login.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should enter firstname, email and jobtitle",
+    "steps": [
+      {
+        "name": "The user should enter firstname, email and jobtitle",
+        "aggregatedDurations": {
+          "median": 0.5820869,
+          "average": 0.582086900
+        },
+        "durations": [
+          {
+            "duration": 0.5820869,
+            "location": "file:src/test/resources/Features/login.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should click the start tour button",
+    "steps": [
+      {
+        "name": "The user should click the start tour button",
+        "aggregatedDurations": {
+          "median": 0.3018553,
+          "average": 0.301855300
+        },
+        "durations": [
+          {
+            "duration": 0.3018553,
+            "location": "file:src/test/resources/Features/login.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user open the Control Tower Action",
+    "steps": [
+      {
+        "name": "The user open the Control Tower Action",
+        "aggregatedDurations": {
+          "median": 22.4364462,
+          "average": 22.436446200
+        },
+        "durations": [
+          {
+            "duration": 22.4364462,
+            "location": "file:src/test/resources/Features/login.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should see the Threats \u0026 Alert",
+    "steps": [
+      {
+        "name": "The user should see the Threats \u0026 Alert",
+        "aggregatedDurations": {
+          "median": 6.4152559,
+          "average": 6.415255900
+        },
+        "durations": [
+          {
+            "duration": 6.4152559,
+            "location": "file:src/test/resources/Features/login.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user click the Order TimeLine Action",
+    "steps": [
+      {
+        "name": "The user click the Order TimeLine Action",
+        "aggregatedDurations": {
+          "median": 4.3964182,
+          "average": 4.396418200
+        },
+        "durations": [
+          {
+            "duration": 4.3964182,
+            "location": "file:src/test/resources/Features/login.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user click the Communication Hub",
+    "steps": [
+      {
+        "name": "The user click the Communication Hub",
+        "aggregatedDurations": {
+          "median": 2.2281589,
+          "average": 2.228158900
+        },
+        "durations": [
+          {
+            "duration": 2.2281589,
+            "location": "file:src/test/resources/Features/login.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Click the Compose an Email",
+    "steps": [
+      {
+        "name": "Click the Compose an Email",
+        "aggregatedDurations": {
+          "median": 9.6692632,
+          "average": 9.669263200
+        },
+        "durations": [
+          {
+            "duration": 9.6692632,
+            "location": "file:src/test/resources/Features/login.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should The Add Shipping Information",
+    "steps": [
+      {
+        "name": "The user should The Add Shipping Information",
+        "aggregatedDurations": {
+          "median": 3.496643,
+          "average": 3.496643000
+        },
+        "durations": [
+          {
+            "duration": 3.496643,
+            "location": "file:src/test/resources/Features/login.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user  Enter Vessel Tracking Id",
+    "steps": [
+      {
+        "name": "The user  Enter Vessel Tracking Id",
+        "aggregatedDurations": {
+          "median": 3.6285995,
+          "average": 3.628599500
+        },
+        "durations": [
+          {
+            "duration": 3.6285995,
+            "location": "file:src/test/resources/Features/login.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user click the Global Risks",
+    "steps": [
+      {
+        "name": "The user click the Global Risks",
+        "aggregatedDurations": {
+          "median": 10.8041509,
+          "average": 10.804150900
+        },
+        "durations": [
+          {
+            "duration": 10.8041509,
+            "location": "file:src/test/resources/Features/login.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The user should be in valid page",
+    "steps": [
+      {
+        "name": "The user should be in valid page",
+        "aggregatedDurations": {
+          "median": 4.2456982,
+          "average": 4.245698200
+        },
+        "durations": [
+          {
+            "duration": 4.2456982,
+            "location": "file:src/test/resources/Features/login.feature:15"
+          }
+        ]
+      }
+    ]
+  }
+]

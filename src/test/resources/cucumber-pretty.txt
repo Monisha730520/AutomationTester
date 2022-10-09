@@ -1,0 +1,15 @@
+Feature: To validate the login functionality of kavida application
+
+  Scenario: To validte the login with valid credentials      [90m# src/test/resources/Features/login.feature:3[0m
+    [32mGiven [0m[32mThe user should be in kavida login page[0m            [90m# LoginSteps.the_user_should_be_in_kavida_login_page()[0m
+    [32mWhen [0m[32mThe user should enter firstname, email and jobtitle[0m [90m# LoginSteps.the_user_should_enter_firstname_email_and_jobtitle()[0m
+    [32mAnd [0m[32mThe user should click the start tour button[0m          [90m# LoginSteps.the_user_should_click_the_start_tour_button()[0m
+    [32mAnd [0m[32mThe user open the Control Tower Action[0m               [90m# LoginSteps.the_user_open_the_Control_Tower_Action()[0m
+    [32mThen [0m[32mThe user should see the Threats & Alert[0m             [90m# LoginSteps.the_user_should_see_the_Threats_Alert()[0m
+    [32mAnd [0m[32mThe user click the Order TimeLine Action[0m             [90m# LoginSteps.the_user_click_the_Order_TimeLine_Action()[0m
+    [32mAnd [0m[32mThe user click the Communication Hub[0m                 [90m# LoginSteps.the_user_click_the_Communication_Hub()[0m
+    [32mWhen [0m[32mClick the Compose an Email[0m                          [90m# LoginSteps.click_the_Compose_an_Email()[0m
+    [32mThen [0m[32mThe user should The Add Shipping Information[0m        [90m# LoginSteps.the_user_should_The_Add_Shipping_Information()[0m
+    [32mWhen [0m[32mThe user  Enter Vessel Tracking Id[0m                  [90m# LoginSteps.the_user_Enter_Vessel_Tracking_Id()[0m
+    [32mAnd [0m[32mThe user click the Global Risks[0m                      [90m# LoginSteps.the_user_click_the_Global_Risks()[0m
+    [32mThen [0m[32mThe user should be in valid page[0m                    [90m# LoginSteps.the_user_should_be_in_valid_page()[0m
