@@ -1,5 +1,5 @@
 Feature: To validate the login functionality of kavida application
-
+@smoke
 Scenario: To validte the login with valid credentials
 Given The user should be in kavida login page
 When The user should enter firstname, email and jobtitle

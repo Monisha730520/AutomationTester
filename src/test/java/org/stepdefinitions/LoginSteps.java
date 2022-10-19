@@ -11,17 +11,20 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
+
 import org.runner.BaseClass;
 
 
 import io.cucumber.java.en.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class LoginSteps  {
+public class LoginSteps extends BaseClass  {
 	static WebDriver driver;
 	@Given("The user should be in kavida login page")
 	public void the_user_should_be_in_kavida_login_page() {
+//		browsers("Chrome");
+//		urlLaunch("https://dev-platform-tour.kavida.ai/kavida/start-tour");
+//		impWait(20);
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
 		driver.get("https://dev-platform-tour.kavida.ai/kavida/start-tour");
@@ -30,10 +33,10 @@ public class LoginSteps  {
 	}
 
 	@When("The user should enter firstname, email and jobtitle")
-	public void the_user_should_enter_firstname_email_and_jobtitle() {
+	public void the_user_should_enter_firstname_email_and_jobtitle() throws InterruptedException {
 		
-		
-		WebElement userName = driver.findElement(By.xpath("//input[@placeholder='First Name, Last Name']"));
+		Thread.sleep(2000);
+		WebElement userName = driver.findElement(By.xpath("(//input[@type='text'])[1]"));
 		userName.sendKeys("Monisha");
 		
 		WebElement txtEmail = driver.findElement(By.xpath("//input[@placeholder='name@company.com']"));

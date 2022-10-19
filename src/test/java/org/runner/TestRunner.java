@@ -1,8 +1,5 @@
 package org.runner;
 
-import java.io.File;
-import java.io.FileReader;
-
 import org.junit.AfterClass;
 import org.junit.runner.RunWith;
 import org.test.JVMReports;
@@ -11,30 +8,26 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources", glue="org.stepdefinitions", dryRun=false,
+@CucumberOptions( features="src/test/resources",
+                  glue="org.stepdefinitions",tags= {"@smoke"},
+                  dryRun=false,
+                  monochrome=true,
+                  
+                  
+                  plugin= {"pretty",
+                		  "html:src\\main\\resources\\cucumber-html-report",
+                		  "json:src\\main\\resources\\Reports\\JsonReport\\jsonReport.json",
+                		  "junit:src\\main\\resources\\Reports\\junitReport\\report.xml"
+}  
+                  
 
-
-tags = "@E2E",
-plugin = {
-		
-		"html:src\\main\\resources\\Reports\\HtmlReport",
-		"json:src\\main\\resources\\Reports\\JSONReport\\jsonreport.json",
-		"junit:src\\main\\resources\\Reports\\JUNITReport\\junitreport.xml",
-//		"rerun:src\\main\\resources\\FailedScenarios\\failed.txt"
-
-}		
-		
 )
-
 public class TestRunner {
 	@AfterClass
 	public static void report() {
-		JVMReports.generateJVMReport("src\\\\main\\\\resources\\\\Reports\\\\JSONReport\\\\jsonreport.json");
-		
+		JVMReports.generateJVMReport("src\\main\\resources\\Reports\\JsonReport\\jsonReport.json");
+		System.out.println("Done");
 
 	}
 
-	
-	}
-
-
+}

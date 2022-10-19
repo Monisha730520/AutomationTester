@@ -13,8 +13,8 @@ public class JVMReports {
 	
 	public static void generateJVMReport(String json) {
 		
-		File loc= new File(System.getProperty("user.dir")+"D:\\eclipse-workspace\\CucumberKavida\\src\\main\\resources");
-		Configuration conf =new Configuration(loc, "Start Tour");
+		File loc= new File(System.getProperty("user.dir")+"\\src\\main\\resources\\Reports\\JVMReport");
+		Configuration conf =new Configuration(loc, "StartTour");
 		conf.addClassifications("Browser", "Chrome");
 		conf.addClassifications("OS", "Window");
 		List<String> jsonfiles=new LinkedList<>();

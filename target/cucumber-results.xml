@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="91.978247">
-<testcase classname="To validate the login functionality of kavida application" name="To validte the login with valid credentials" time="91.978247">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="118.075568">
+<testcase classname="To validate the login functionality of kavida application" name="To validte the login with valid credentials" time="118.075568">
 <system-out><![CDATA[Given The user should be in kavida login page...............................passed
 When The user should enter firstname, email and jobtitle....................passed
 And The user should click the start tour button.............................passed
